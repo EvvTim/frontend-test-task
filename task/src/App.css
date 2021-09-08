@@ -1,0 +1,66 @@
+main {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 50px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.form-section label {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.form-section input {
+    margin-left: 20px;
+}
+
+.offer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.aeroflot-container {
+
+}
+
+.aeroflot-container h2,
+
+.russian-railways-container h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.aeroflot-container p {
+    margin: 10px;
+}
+
+.warning {
+    color: red;
+    padding: 0;
+    margin: 0;
+}
